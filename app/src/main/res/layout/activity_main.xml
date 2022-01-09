@@ -26,6 +26,14 @@
             android:scaleType="centerCrop" />
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="list"
+        android:layout_margin="20dp"
+        android:id="@+id/btn"/>
+
 
 
 </RelativeLayout>

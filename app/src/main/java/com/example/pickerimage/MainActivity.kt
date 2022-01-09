@@ -1,6 +1,7 @@
 package com.example.pickerimage
 
 import android.Manifest
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.vansuita.pickimage.bean.PickResult
@@ -10,6 +11,7 @@ import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
 import androidx.core.app.ActivityCompat
 import android.widget.Toast
+import com.example.pickerimage.list.ListActivity
 import com.vansuita.pickimage.dialog.PickImageDialog
 import com.vansuita.pickimage.enums.EPickType
 import com.vansuita.pickimage.bundle.PickSetup
@@ -29,6 +31,10 @@ class MainActivity : AppCompatActivity() , IPickResult {
                askCameraPermission(request_code)
            }
        }
+
+        btn.setOnClickListener {
+            startActivity(Intent(this@MainActivity , ListActivity::class.java))
+        }
 
     }
 

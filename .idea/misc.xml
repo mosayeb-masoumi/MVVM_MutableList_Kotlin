@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PickerImage/app/src/main/res/drawable/my_shape.xml" value="0.2328125" />
+        <entry key="..\:/PickerImage/app/src/main/res/layout/activity_list.xml" value="0.36666666666666664" />
         <entry key="..\:/PickerImage/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
+        <entry key="..\:/PickerImage/app/src/main/res/layout/row.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
