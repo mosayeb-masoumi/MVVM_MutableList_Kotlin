@@ -30,13 +30,13 @@ class ListActivity : AppCompatActivity() , ListItemInterAction{
     private fun getData() {
         viewModel!!.getData().observe(this) { myList ->
             if (myList != null) {
-                setRecyClereView(myList)
+                setRecyClerView(myList)
             }
         }
     }
 
 
-    private fun setRecyClereView(myList: List<MyModel>) {
+    private fun setRecyClerView(myList: List<MyModel>) {
 
         val layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         recyclerView.layoutManager = layoutManager
